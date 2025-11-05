@@ -3,8 +3,8 @@ import Card from '../Card';
 export default function WhyChooseUs() {
   const features = [
     {
-      title: '20+ années d\'expérience',
-      description: 'Plus de deux décennies d\'excellence dans la construction et la satisfaction client.',
+      title: '8+ années d\'expérience a Dakhla ',
+      description: 'Plus de 8 ans d\'excellence dans la construction et la satisfaction client.',
       icon: (
         <svg className="w-12 h-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />

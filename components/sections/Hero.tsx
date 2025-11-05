@@ -2,10 +2,10 @@ import Button from '../Button';
 
 export default function HeroWithRegions() {
   const regions = [
-    { name: "Dakhla - Oued Eddahab", img: "https://images.pexels.com/photos/3568445/pexels-photo-3568445.jpeg", link: "#dakhla" },
-    { name: "Boujdour", img: "https://images.pexels.com/photos/1751279/pexels-photo-1751279.jpeg", link: "#boujdour" },
-    { name: "Laâyoune", img: "https://images.pexels.com/photos/3889926/pexels-photo-3889926.jpeg", link: "#laayoune" },
-    { name: "Bir Guendouz", img: "https://images.pexels.com/photos/1270167/pexels-photo-1270167.jpeg", link: "#birguendouz" }
+    { name: "Dakhla - Oued Eddahab", img: "/images/Dakhla.jpg", link: "#dakhla" },
+    { name: "Boujdour", img: "/images/Boujdour.jpg", link: "#boujdour" },
+    { name: "Laâyoune", img: "/images/Laayoune.jpg", link: "#laayoune" },
+    { name: "Bir Guendouz", img: "/images/bir_gandouz.webp", link: "#birguendouz" }
   ];
 
   return (
@@ -13,7 +13,7 @@ export default function HeroWithRegions() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg')] bg-cover bg-center"></div>
+          <div className="absolute inset-0 bg-[url('/images/Hero-bg.png')] bg-cover bg-center"></div>
         </div>
 
         {/* Logo */}
